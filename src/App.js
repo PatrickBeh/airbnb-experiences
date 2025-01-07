@@ -2,7 +2,8 @@ import './App.css';
 import Header from './components/Header'
 import Banner from './components/Banner'
 import Content from './components/Content'
-import Card from './components/Card'
+import Slider from './components/Slider'
+
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <Header />
         <Banner />
         <Content />
-        <Card />
+        <Slider />
       </div>
     </div>
   );
